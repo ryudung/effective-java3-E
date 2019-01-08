@@ -53,6 +53,7 @@ public class Discussion01Test {
      * <p>
      * 장점:
      * - 개발자가 required 필드, optional 필드를 구분하기 쉽다.
+     * - compile시점에 에러를 확인할 수 있다.
      * <p>
      * 단점:
      * 생성자 방식이 가지는 단점을 그대로 가짐
@@ -61,7 +62,6 @@ public class Discussion01Test {
      */
     @Test
     public void required_필드를_빌더생성자에_받음() {
-
         Discussion01Item item
                 = Discussion01Item.builder(0L)
                 .name("ryudung")
