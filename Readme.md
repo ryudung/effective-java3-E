@@ -47,4 +47,14 @@
   
  20. [**추상 클래스보다는 인터페이스를 우선하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item20) 
  
+ 21. [**인터페이스는 구현하는 쪽을 생각해 설계하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item21) 
+ 
+ 22. [**인터페이스는 타입을 정의하는 용도로만 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item22) 
+ 
+ 23. [**상속보다는 컴포지션을 사용하라. (클래스가 클래스를 상속하는 경우)**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item23) 
+ 
+ 24. [**인터페이스는 타입을 정의하는 용도로만 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item24) 
+ 
+ 25. [**톱 레벨 클래스는 한 파일에 하나만 담으라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item25) 
+ 
  
