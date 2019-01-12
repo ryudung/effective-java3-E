@@ -37,7 +37,7 @@
 
  15. [**클래스와 멤버의 접근 권한을 최소화하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item15)
  
- 16. [**public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라.**]((https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item16))
+ 16. [**public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item16)
  
  17. [**변경 가능성을 최소화하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item17)
   
