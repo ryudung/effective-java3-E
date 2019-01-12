@@ -12,16 +12,18 @@ public class PizzaTest {
 
     @Test
     public void 피자만들기() {
+        //given
         NyPizza nyPizza = (NyPizza) NyPizza.NYBuilder(NyPizza.Size.LARGE)
                 .addTopping(Pizza.Topping.HAM)
                 .addTopping(Pizza.Topping.ONION)
                 .addTopping(Pizza.Topping.MUSHROOM)
                 .build();
-
+        //given
         Calzone calzonePizza = (Calzone) Calzone.CalzoneBuilder()
                 .sauceInside()
                 .build();
 
+        //then
         Assert.assertThat(nyPizza.getSize(), is(NyPizza.Size.LARGE));
         Assert.assertThat(calzonePizza.isSauceInside(), is(true));
     }

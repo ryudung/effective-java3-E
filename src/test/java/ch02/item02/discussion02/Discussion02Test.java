@@ -24,7 +24,7 @@ public class Discussion02Test {
      */
     @Test(expected = IllegalArgumentException.class)
     public void 검증_생성자를_사용할_경우() {
-
+        //given
         Discussion02ConstructorItem item = Discussion02ConstructorItem.builder()
                 .id(-1L)
                 .name("ryudung")
@@ -44,7 +44,7 @@ public class Discussion02Test {
      */
     @Test(expected = IllegalArgumentException.class)
     public void 검증_빌드메소드를_사용할_경우() {
-
+        //given
         Discussion02BuildItem item = Discussion02BuildItem.builder()
                 .id(-1L)
                 .name("ryudung")
@@ -66,7 +66,7 @@ public class Discussion02Test {
      */
     @Test(expected = IllegalArgumentException.class)
     public void 검증_각_빌드메소드를_사용할_경우() {
-
+        //given
         Discussion02BuildPerMethodItem item = Discussion02BuildPerMethodItem.builder()
                 .id(-1L)
                 .name("ryudung")

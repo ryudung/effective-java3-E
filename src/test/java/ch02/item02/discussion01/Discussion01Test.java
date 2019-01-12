@@ -35,11 +35,13 @@ public class Discussion01Test {
     @Test
     public void 일반적인_lomobk_디폴트세팅() {
 
+        //given
         Item item = Item.builder()
                 .id(0L)
                 .name("item1")
                 .build();
 
+        //then
         Assert.assertThat(item.getId(), is(0L));
         Assert.assertThat(item.getName(), is("item1"));
     }
@@ -62,11 +64,13 @@ public class Discussion01Test {
      */
     @Test
     public void required_필드를_빌더생성자에_받음() {
+        //given
         Discussion01Item item
                 = Discussion01Item.builder(0L)
                 .name("ryudung")
                 .build();
 
+        //then
         Assert.assertThat(item.getId(), is(0L));
         Assert.assertThat(item.getName(), is("ryudung"));
 
@@ -75,7 +79,7 @@ public class Discussion01Test {
 
     @Test
     public void required_필드가_매우_많아짐() {
-
+        //given
         ManyRequiredItem item = ManyRequiredItem.builder(
                 1L,
                 "kingbbode",
@@ -87,6 +91,8 @@ public class Discussion01Test {
                 "juNim"
         ).build();
 
+
+        //then
         Assert.assertThat(item.getId(), is(1L));
         Assert.assertThat(item.getName1(), is("kingbbode"));
         Assert.assertThat(item.getName2(), is("ryudung"));
