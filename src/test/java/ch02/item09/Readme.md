@@ -3,7 +3,6 @@
 ---
 
 ### 요약
-
 `try-finally 보다는 try-with-resources를 사용하자,
  코드가 더 짧고, 분명해 진다.`
 
