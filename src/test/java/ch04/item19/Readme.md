@@ -29,6 +29,6 @@
  
  5. 상속용으로 설계하지 않은 클래스는 상속을 금지한다.
 
-####참고 [상속을 금지하는 방법](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item17)
+#### 참고 [상속을 금지하는 방법](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item17)
 - final 클래스
 - private 필드, private 생성자, [정적 팩토리(item01) 사용](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch02/item01)
