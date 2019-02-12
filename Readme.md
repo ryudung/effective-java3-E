@@ -76,3 +76,22 @@
  40. [**@Override 애너테이션을 일관되게 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch06/item40)
  
  41. [**정의하려는 것이 타입이라면 마커인터페이스를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch06/item41)
+ 
+ ### 7장 람다와 스트림
+ 
+ 42. [**익명 클래스보다는 람다를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item42)
+ 
+ 43. [**람다보다는 메서드 참조를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item43)
+ 
+ 44. [**표준 함수형 인터페이스를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item44)
+ 
+ 45. [**(함수형 인터페이스를 만들기 보다) 표준 함수형 인터페이스를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item45)
+  
+ 46. [**스트림에서는 부작용 없는 함수를 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item46)
+   
+ 47. [**반환 타입으로는 스트림보다 컬렉션이 낫다.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item47)
+ 
+ 48. [**스트림 병렬화는 주의해서 적용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item48)
+ 
+ 
+ 
