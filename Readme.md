@@ -93,5 +93,22 @@
  
  48. [**스트림 병렬화는 주의해서 적용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch07/item48)
  
+ ### 8장 메서드
  
+ 49. [**매개변수가 유효한지 검사하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item49)
+  
+ 50. [**적시에 방어적 복사본을 만들라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item50)
+  
+ 51. [**메시지 시그니처를 신중히 설계하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item51)
+  
+ 52. [**메서드, 생성자의 다중정의는 신중하게 해야 한다.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item52)
+  
+ 53. [**가변인수는 신중히 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item53)
+  
+ 54. [**null이 아닌, 빈 컬렉션이나 배열을 반환하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item54)
+  
+ 55. [**옵셔널 반환은 신중히 하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item55)
+  
+ 56. [**공개된 API 요소에는 항상 문서화 주석을 작성하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item56)
+  
  

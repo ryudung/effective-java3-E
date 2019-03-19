@@ -1,6 +1,5 @@
 package ch04.item18;
 
-import ch04.item18.domain.ForwardingPerson;
 import ch04.item18.domain.InstrumentedPersonCar;
 import ch04.item18.domain.Person;
 import org.junit.Assert;
