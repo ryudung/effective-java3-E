@@ -1,5 +1,22 @@
-## Effective Java 3/E 스터디
+## Effective Java 3/E(JAVA 8 기준) 스터디
+
 ---
+
+```
+
+ java로 개발하면서 항상 이게 좋을지, 저게 좋을지 많은 고민을 하게 된다.
+Effective java를 통해 이러한 고민과 좋은 코드를 만들기 위한 갈증을 해소하고 싶다.
+ 
+- 한번 정리하고 끝나는 것이 아니라 계속해서 꾸준히 읽기위해서, 이해를 도울수 있는 짧은 요약을 남긴다.
+- 내용을 이해하는데 코드가 필요하다면 남긴다.
+- 읽다가 의문이 생기면 내용을 찾아서 수정하거나 더한다.
+- 서비스 개발(라이브러리 개발자가 아닌)을 주로 하다보니, 내용이 공감되지 않는 내용도 종종 있다. 이러한 내용들은 가볍게 읽고 넘어간다.
+- 내용에 대한 의문이나 이해를 돕기 위한 추가적인 설명이 필요하면 추가한다.
+
+```
+
+---
+
 
 ### 2장 객체 생성과 파괴
 
@@ -57,7 +74,7 @@
  
  25. [**톱 레벨 클래스는 한 파일에 하나만 담으라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch04/item25) 
  
- ### 5장 클래스와 인터페이스
+ ### 5장 제네릭
  
  ### 6장 열거타입과 애너테이션
  
@@ -111,4 +128,28 @@
   
  56. [**공개된 API 요소에는 항상 문서화 주석을 작성하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch08/item56)
   
+ ### 9장 일반적인 프로그래밍 원칙
  
+ 57. [**지역변수의 범위를 최소화하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item57)
+ 
+ 58. [**전통적인 for 문보다는 for-each 문을 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item58)
+ 
+ 59. [**(직접 만들어서 사용하기 보다) 라이브러리를 익히고 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item59)
+ 
+ 60. [**정확한 답이 필요하다면 float과 double은 피하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item60)
+ 
+ 61. [**박싱된 기본 타입보다는 기본 타입을 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item61)
+ 
+ 62. [**다른 타입이 적절하다면 문자열 사용을 피하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item62)
+ 
+ 63. [**문자열 연결은 느리니 주의하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item63)
+ 
+ 64. [**박싱된 기본 타입보다는 기본 타입을 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item64)
+ 
+ 65. [**객체는 인터페이스를 사용해 참조하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item65)
+ 
+ 66. [**네이티브 메서드는 신중히 사용하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item66)
+ 
+ 67. [**최적화는 신중히 하라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item67)
+ 
+ 68. [**일반적으로 통용되는 명명 규칙을 따르라.**](https://github.com/ryudung/effective-java3-E/tree/master/src/test/java/ch09/item68)
