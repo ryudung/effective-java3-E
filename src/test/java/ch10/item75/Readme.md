@@ -10,7 +10,7 @@
 
 #### IndexOutOfBoundsException에 상세한 정보를 담을 수 있도록 변경한 코드
 
-`
+```java
 public IndexOutOfBoundsException(int lowerBound, int upperBound, int index) {
     super(String.format("최소값: %d, 최댓값: %d, 인덱스: %d", lowerBound, upperBound, index))
     
@@ -18,4 +18,4 @@ public IndexOutOfBoundsException(int lowerBound, int upperBound, int index) {
     this.uppperBound = upperBound;
     this.index = index;
 }
-`
+```
