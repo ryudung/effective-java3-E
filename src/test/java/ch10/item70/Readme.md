@@ -27,7 +27,7 @@ Object
 
 2. 프로그래밍 오류를 나타낼 때는 런타임 예외를 사용하자.
     - 비 검사 throwable은 모두 RuntimeException의 하위 클래스여야 한다.
-    - Error는 상송하지 말아야 하며, throw문으로 던지지도 말아야한다.
+    - Error는 상속하지 말아야 하며, throw문으로 던지지도 말아야한다.
     - Exception, RuntimeException, Error를 상속하지 않는 throwable을 만들수 있지만, 사용자를 헷갈리게 할 여지가 크다.
 
 ---
